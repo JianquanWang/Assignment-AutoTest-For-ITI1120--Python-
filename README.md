@@ -1,6 +1,6 @@
 # Assignment-AutoTest-For-ITI1120--Python-
 The repository is automation testing scripts for marking assignments of ITI1120 (Python3) course. The scripts are implemented by python 3.
-## requirments
+## Requirments
 The test scripts rely on pytest, which you can install by
 
 ```python
