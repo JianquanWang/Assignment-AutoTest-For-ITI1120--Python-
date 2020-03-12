@@ -1,3 +1,11 @@
+'''
+Module for automatic testing for ITI1120 assignment.
+
+Design: Jianquan Wang
+Author: Jianquan Wang | jwang438@uottawa.ca
+Copyright(c) 2020 All Rights Reserved
+'''
+
 import importlib
 import pytest
 
