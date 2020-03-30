@@ -87,11 +87,12 @@ class TestCase:
         assert out == ans
 
     def test_Q3(self):
-        assert model.approxPi(0.1) == 3.189184782277596
-        assert model.approxPi(0.01) == 3.1465677471829556
-        assert model.approxPi(0.003) == 3.140095648440477
-        assert model.approxPi(1e-5) == 3.141597653564762
-        assert model.approxPi(1) == 3.466666666666667
+        import math
+        assert abs(math.pi - model.approxPi(0.1)) <= 0.1
+        assert abs(math.pi - model.approxPi(0.01)) <= 0.01
+        assert abs(math.pi - model.approxPi(0.003)) <= 0.003
+        assert abs(math.pi - model.approxPi(1e-5)) <= 1e-5
+        assert abs(math.pi - model.approxPi(1)) <= 1
 
     def test_Q4(self):
         # TAs: There are three kind of format of examples in question 4 description, so please
